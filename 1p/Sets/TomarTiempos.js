@@ -8,5 +8,5 @@ while(SetsNames.size < times){
     var nombreCompleto = BNames + numero
     SetsNames.add(nombreCompleto)
 }
-console.log(SetsNames)
+console.log(SetsNames);
 console.timeEnd("Tiempo tomado");
