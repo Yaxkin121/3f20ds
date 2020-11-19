@@ -15,3 +15,15 @@ MySet.add(6)
 console.log(MySet)
 
 //Entonces, debido a que los sets son iterables se puede imaginar que los Weaksets no lo son.
+var ws = new WeakSet();
+var obj = {};
+var yecs = {};
+
+ws.add(window); 
+ws.add(obj);
+
+ws.has(window); // true
+ws.has(yecs);    // false, yecs no fue agregado al conjunto
+
+ws.delete(window); // elimina window del conjunto
+ws.has(window);    // false, window fue eliminado
