@@ -3,4 +3,4 @@ function serie(num) {
     if (num == 2) return 1;
     return serie(num - 1) + serie(num - 2);
   }
-  console.log(serie(5))
+  console.log(serie(11))
