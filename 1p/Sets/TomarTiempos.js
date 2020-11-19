@@ -1,5 +1,5 @@
 var SetsNames = new Set()
-var BNames = "name"
+var BNames = "Name"
 var times = 100000
 
 console.time('Tiempo tomado');
