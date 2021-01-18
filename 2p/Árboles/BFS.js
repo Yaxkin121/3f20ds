@@ -60,3 +60,4 @@ trree.addNode("g", "c"),
   trree.recorrerBFS((nodo) => {
     console.log("El nodo actual es: ", nodo);
   });
+  
